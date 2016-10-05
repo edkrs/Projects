@@ -1,3 +1,15 @@
+
+
+
+#Once run, constantly checks email for new emails, and then scrapes email to find links and immediately click them 
+#with a default browser. Currently set to check as many times as possible, but in execution should be restricted to pause frequently, 
+#and only check once in a while, so as not to overload email server with requests. 
+
+
+
+
+
+
 import poplib
 from email import parser
 import re
